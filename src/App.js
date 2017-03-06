@@ -5,10 +5,16 @@ import Footer from './components/Footer';
 
 class App extends Component {
   render() {
+    const styles = {
+      main: {
+        minHeight: 'calc(100vh - 170px)'
+      }
+    };
+
     return (
       <div>
         <MainNav />
-        <main style={{ minHeight: 'calc(100vh - 170px)' }}>
+        <main style={styles.main}>
           <HomeContainer />
         </main>
         <Footer />
