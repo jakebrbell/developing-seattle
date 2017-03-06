@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MainNav from './components/MainNav';
 import HomeContainer from './components/HomeContainer';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <main style={{ minHeight: 'calc(100vh - 170px)' }}>
           <HomeContainer />
         </main>
+        <Footer />
       </div>
     );
   }
